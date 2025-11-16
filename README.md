@@ -1,4 +1,4 @@
-# Proagrama para gestionar Vuelos — Java
+# Programa para gestionar Vuelos — Java
 
 Programa que permite filtrar listas de vuelos según diferentes criterios de búsqueda que pueden ser vistos en la terminal.
 
