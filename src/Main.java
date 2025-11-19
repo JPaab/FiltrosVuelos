@@ -9,8 +9,8 @@ import java.util.List;
 
 public class Main {
 
-    private static final LocalDate FECHA_INICIO = LocalDate.of(2025, 5, 1);
-    private static final LocalDate FECHA_FIN = LocalDate.of(2025, 6, 30);
+    private static final LocalDate FECHA_INICIO = LocalDate.of(2025, 4, 11 );
+    private static final LocalDate FECHA_FIN = LocalDate.of(2025, 5, 29);
 
     public static void main(String[] args) {
         List<Vuelo> vuelos = crearVuelosDePrueba();
@@ -67,7 +67,7 @@ public class Main {
 
     private static void imprimirVuelos(List<Vuelo> vuelos) {
         if (vuelos.isEmpty()) {
-            System.out.println(ColorUtils.ROJO.pintar("No hay vuelos que coincidan con el criterio de búsqueda."));
+            System.out.println(ColorUtils.ROJO.pintar("No hay vuelos que coincidan con el criterio de búsqueda. \n"));
         }
         String formato = ""
                 + "%s%-3s%s  "    // ID

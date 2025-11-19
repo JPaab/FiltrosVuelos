@@ -57,6 +57,7 @@ public class Vuelo {
         return fechaLlegada;
     }
 
+    // Al final decidi no usar el toString, y en el Main formatear una tabla para que se viera ordenado y mas claro.
     @Override
     public String toString() {
         return

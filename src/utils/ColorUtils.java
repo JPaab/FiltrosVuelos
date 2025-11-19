@@ -1,5 +1,7 @@
 package utils;
 
+// Añadí esta clase ENUM para gestionar los colores del menú que aparece en la terminal, simplemente estetico.
+
 public enum ColorUtils {
     RESET("\u001B[0m"),
     ROJO("\u001B[31m"),

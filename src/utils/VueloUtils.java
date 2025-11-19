@@ -7,6 +7,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// Clase utilitaria que uso para crear los filtros.
+
 public class VueloUtils {
     public static List<Vuelo> filtrarPorFechas(List<Vuelo> vuelos, LocalDate fechaInicio, LocalDate fechaFin) {
         return vuelos.stream()
